@@ -25,7 +25,6 @@ docker run -t -i --privileged bach
 Bach DSL's builder tool is SBT. You can view the tasks with `sbt tasks`. You
 can compile the project with `sbt compile`.
 
-## Code Style
-
-The code style is defined in scala style and automatically enforced by scala
-formatter in each time compile.
+The code style is defined in `scalastyle-config.xml` and the scala formatter
+configuration is in `.scalafmt.conf`. The code will be automatically formatted
+and the style will be checked each time when you compile.
